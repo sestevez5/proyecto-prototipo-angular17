@@ -1,3 +1,9 @@
+
+  <p-listbox [options]="[{ name: 'New York', code: 'NY' },{ name: 'New Yorkaa', code: 'NYa' }]" formControlName="selectedCity" optionLabel="code" [listStyle]="{'height': '100%'}" ></p-listbox>
+  <p-button>Pulsa aquí</p-button>
+
+  <!-- [style]="{ width: '15rem' }" [listStyle]="{'max-height': '220px'}" -->
+
 @for (item of entidades; track item) {
     {{item.idEntidad}}
   }

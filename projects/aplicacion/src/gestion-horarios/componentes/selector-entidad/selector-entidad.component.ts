@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { UiSelectorListaSimpleModelo1Component } from 'libreria'
+import { UiSelectorListaSimpleModelo1Component } from 'libreria';
+
 
 @Component({
   selector: 'app-selector-entidad',
