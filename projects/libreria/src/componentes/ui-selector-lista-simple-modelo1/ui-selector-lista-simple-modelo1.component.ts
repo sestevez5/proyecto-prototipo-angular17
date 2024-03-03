@@ -13,12 +13,12 @@ import { ButtonModule } from 'primeng/button';
 })
 export class UiSelectorListaSimpleModelo1Component {
 
-  @Input({required: true}) entidades!: IEntidad[];
+  @Input({required: true}) items!: Item[];
 
 }
 
-interface IEntidad {
-  idEntidad: string;
+interface Item {
+  id: string;
   textoPrincipal: string;
   textoSecundario: string;
   imagen: string;
