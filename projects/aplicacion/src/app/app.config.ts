@@ -9,10 +9,13 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore, provideFirestore} from '@angular/fire/firestore'
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes),
+  providers: [
+    
+    provideRouter(routes),
 
     importProvidersFrom(
-      [provideFirebaseApp(() => initializeApp({
+      [
+        provideFirebaseApp(() => initializeApp({
         apiKey: "AIzaSyCXM0CDradV8RNiJH5Oy9fmp_IeYP5tB-8",
         authDomain: "gestionbiblioteca-b928e.firebaseapp.com",
         databaseURL: "https://gestionbiblioteca-b928e.firebaseio.com",
@@ -21,8 +24,10 @@ export const appConfig: ApplicationConfig = {
         messagingSenderId: "284856647537",
         appId: "1:284856647537:web:a46ddfc1f6c0b0c9ec80d0",
         measurementId: "G-ZFSMHQGPHV"
-      })),
-    provideFirestore(()=>getFirestore())]
+        })),
+
+        provideFirestore(()=>getFirestore())
+    ]
     ) 
   
   ]

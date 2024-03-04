@@ -31,7 +31,19 @@ export class SelectorEntidadComponent implements OnInit{
 ]
 
   ngOnInit(): void {
-    this.x.demo()
+    // this.x.obtenerTodosLosGrupos().subscribe(x => console.log(x))
+    // this.x.obtenerTodosLosDocentes().subscribe(x => console.log(x))
+    // this.x.obtenerTodosLosAlumnos().subscribe(x => console.log(x))
+    //this.x.obtenerTodasLasDependencias().subscribe(x => console.log(x))
+    //this.x.obtenerTodasLasAsignaturas().subscribe(x => console.log(x))
+
+    // this.x.obtenerTodosLosPeriodosDeVigencia().subscribe(x => console.log(x))
+    // this.x.obtenerTodasLasActividades().subscribe(x => console.log(x))
+    this.x.obtenerTodasLasPlantillas().subscribe(x => console.log(x))
+
+    this.x.obtenerTodosLosTiposDeActividad().subscribe(x => console.log(x))
+
+   
   }
 
 
