@@ -1,9 +1,9 @@
-import { Asignatura } from './asignatura.model';
-import { Docente } from './docente.model';
-import { Dependencia } from './dependencia.model';
-import { Grupo } from './grupo.model';
+import { Asignatura } from '../modelos old/asignatura.model';
+import { Docente } from '../modelos old/docente.model';
+import { Dependencia } from '../modelos old/dependencia.model';
+import { Grupo } from '../modelos old/grupo.model';
 // import { Usuario } from './../../moduloAuth/models/usuario.model';
-import { EnumTipoEntidadHorario } from "./tipoEntidadHorario.model";
+import { EnumTipoEntidadHorario } from "../modelos old/tipoEntidadHorario.model";
 // import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 
 export class EntidadHorario {

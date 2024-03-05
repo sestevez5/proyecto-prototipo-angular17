@@ -39,9 +39,14 @@ export class SelectorEntidadComponent implements OnInit{
 
     // this.x.obtenerTodosLosPeriodosDeVigencia().subscribe(x => console.log(x))
     // this.x.obtenerTodasLasActividades().subscribe(x => console.log(x))
-    this.x.obtenerTodasLasPlantillas().subscribe(x => console.log(x))
+    // this.x.obtenerTodasLasPlantillasBD().subscribe(x => console.log(x))
 
-    this.x.obtenerTodosLosTiposDeActividad().subscribe(x => console.log(x))
+    // this.x.obtenerTodosLosTiposDeActividadBD().subscribe(x => console.log(x))
+
+    // this.x.obtenerTodosLosDocentes().subscribe( x=>console.log(x))
+
+    this.x.obtenerActividadesBD().subscribe( x=>console.log(x))
+
 
    
   }
